@@ -48,7 +48,7 @@ def app_main():
     while True:
         badge.eink_busy_wait()
 
-        ugfx.display_image(0,0, '/lib/dance/trimmed_image_{}.png'.format(choice(idle)))
+        ugfx.display_image(0,0, '/lib/dancin_disco_dave/trimmed_image_{}.png'.format(choice(idle)))
         ugfx.flush()
 
 
